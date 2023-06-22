@@ -1,0 +1,95 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    overflow: hidden;
+
+    
+}
+body{
+    background-color:rgb(122, 122, 188);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+    
+}
+.allcontent{
+    width: 500px;
+    height: 350px;
+    background-color: rgb(64, 68, 68);
+    max-width: 90%;
+    box-shadow: 1px 1px 0px rgb(9, 23, 9) ;
+
+    box-shadow: -1px -1px 3px rgb(223, 230, 220), 1px 1px 3px rgb(231, 214, 213);
+    border-radius: 10px;
+
+
+    
+}
+.header{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 10px 0;
+
+}
+.line{
+    width: 80%;
+    /* color: white; */
+    height: 2px;
+    background-color: aliceblue;
+    margin:15px  auto;
+
+
+}
+.help-user{
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+.input{
+    background-color: red;
+    color: white;
+    font-size: 27px;
+    padding: 10px;
+    border: none;
+
+    outline: none;
+    margin-left: 20px;
+
+
+
+}
+.show{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+
+    font-size: 22px;
+
+
+}
+.result{
+    background-color: aqua;
+    font-size: 23px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    
+}
